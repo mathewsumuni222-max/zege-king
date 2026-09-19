@@ -18,7 +18,7 @@ export default function AdminLogin({
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault()
 
-    if (username === "admin" && password === "zegeking") {
+    if (username === "Admin@zegeking-Boss" && password === "zegeking@officialproduct..") {
       setError("")
       sessionStorage.setItem("zege-king-admin", "true")
       onLogin()
